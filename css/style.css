@@ -378,3 +378,8 @@ hr.socket {
     background-color: black;
     color: white;
 }
+
+.thank h1{
+    margin-top: 3rem;
+    font-size: 150px;
+}

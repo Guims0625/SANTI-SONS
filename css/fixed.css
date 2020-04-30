@@ -1,20 +1,20 @@
-/*--- Extra Bootstrap Column Padding --*/
+/*--Padding --*/
 [class*="col-"] {
   padding: 1rem;
 }
 
-/*--- Bootstrap Mobile Gutter Fix --*/
+/*--Fix --*/
 .row, .container-fluid {
 margin-left: 0px!important;
 margin-right: 0px!important;
 }
 
-/*--- Fix for Fixed Navbar jumping on scroll --*/
+/*--Fixed Navbars Scroll--*/
 .fixed-top  {
  -webkit-backface-visibility: hidden;
 }
 
-/*--- Fixed Landing Page Section --*/
+/*--Landing Section--*/
 .landing {
   position: relative;
   width: 100%;
@@ -44,7 +44,7 @@ margin-right: 0px!important;
   will-change: transform;
 }
 
-/*--- iOS Fixed Background Image --*/
+/*--Background Image--*/
 .fixed-background {
   position: relative;
   width: 100%;
