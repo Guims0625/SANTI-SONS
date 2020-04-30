@@ -304,6 +304,7 @@ hr.socket {
     .btn-lg {
         padding: .5rem 3rem;
         font-size: 1rem;
+        margin-top: -1rem;
     }
 
     .clients img {
@@ -326,6 +327,59 @@ hr.socket {
         max-width: 60%;
         display: block;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .navbar-brand img {
+        height: 1.5rem;
+    }
+
+    .jumbotron {
+        margin-top: -27rem;
+    }
+
+    .caption img {
+        font-size: 2rem;
+        padding-bottom: -5rem;
+    }
+
+    .caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 2rem;
+    }
+
+    .btn-lg {
+        padding: .3rem 1rem;
+        font-size: 1rem;
+        margin-top: -2rem;
+    }
+
+    .clients img {
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #info img {
+        max-width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .caption {
+        margin-top: -10rem;
+    }
+
+    #mproducts img {
+        max-width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .video-background {
+        padding-top: 2rem;
     }
 }
 
