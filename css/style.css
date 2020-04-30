@@ -20,7 +20,7 @@ body {
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background: rgba(255, 255, 255, 0.85) !important;
+    background: rgb(255, 255, 255) !important;
 }
 
 .navbar-brand img {
@@ -424,7 +424,7 @@ hr.socket {
     }
 
     .caption {
-        margin-top: -10rem;
+        margin-top: -5rem;
     }
 
     #mproducts img {
