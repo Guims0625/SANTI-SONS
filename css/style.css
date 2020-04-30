@@ -241,10 +241,32 @@ hr.socket {
 
 /*============= Media =============*/
 
+@media (max-width: 1000px) {
+    .jumbotronn {
+        margin-top: -8rem;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .jumbotronn {
+        margin-top: -10rem;
+    }
+
+}
+
 @media (max-width: 780px) {
 
+    #slid {
+        margin-top: 4.55rem;
+    }
+
     .jumbotron {
-        margin-top: -15rem;
+        margin-top: -10rem;
+    }
+
+    .jumbotronn {
+        margin-top: -35rem;
     }
 
     .caption img {
@@ -260,6 +282,10 @@ hr.socket {
     .btn-lg {
         padding: .5rem 3rem;
         font-size: 1rem;
+    }
+
+    #clients {
+        margin-top: 20rem;
     }
 
     .clients img {
@@ -278,6 +304,10 @@ hr.socket {
         margin-top: -9.5rem;
     }
 
+    #mproducts {
+        margin-top: 20rem;
+    }
+
     #mproducts img {
         max-width: 60%;
         display: block;
@@ -287,8 +317,16 @@ hr.socket {
 
 @media (max-width: 600px) {
 
+    #slid {
+        margin-top: 5rem;
+    }
+
     .jumbotron {
-        margin-top: -20rem;
+        margin-top: -10rem;
+    }
+
+    .jumbotronn {
+        margin-top: -40rem;
     }
 
     .caption img {
@@ -305,6 +343,10 @@ hr.socket {
         padding: .5rem 3rem;
         font-size: 1rem;
         margin-top: -1rem;
+    }
+
+    #clients {
+        margin-top: 20rem;
     }
 
     .clients img {
@@ -332,12 +374,25 @@ hr.socket {
 
 @media (max-width: 450px) {
 
+    .prod {
+        font-family: robotot;
+        font-size: 50px;
+    }
+
+    #slid {
+        margin-top: 3.5rem;
+    }
+
     .navbar-brand img {
         height: 1.5rem;
     }
 
     .jumbotron {
-        margin-top: -27rem;
+        margin-top: -15rem;
+    }
+
+    .jumbotronn {
+        margin-top: -40rem;
     }
 
     .caption img {
@@ -379,7 +434,7 @@ hr.socket {
     }
 
     .video-background {
-        padding-top: 2rem;
+        padding-top: 3.5rem;
     }
 }
 
